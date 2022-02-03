@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', 'Helvetica', sans-serif;
+    
+}
+
+body{
+    
+    background: rgb(153, 253, 232);
+}
+
+a{
+    text-decoration: none;
+}
+
+.headerAnimal{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+
+    padding: 3.5px 0;
+    background: rgb(0, 238, 255);
+}
+
+.headerAnimal #logo{
+    margin-left: 2.5rem ;
+}
+
+.headerAnimal #logo img{
+    width: 65px;
+    cursor: pointer;
+}
+
+.animalsNav{
+    margin: 0 0 0 5rem;
+}
+
+#animals{
+    display: flex;
+}
+
+#animals li{
+    list-style: none;
+    margin-left: 2.5rem;
+    background: rgb(9, 37, 116);
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background ease .75s;
+}
+
+#animals li a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+
+#animals li:hover{
+    background: rgb(153, 253, 232);
+}
+
+
+/**************/
+
+.animalContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+}
+
+
+.animalPanel{    
+    padding: 10px;
+    max-width: 50%;    
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#animalTitle{
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+
+}
+
+.listAnimal{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 10px 0;
+}
+
+.listAnimal li{
+    list-style: none;
+    padding: 5px;
+}
+
+.listAnimal li img{
+    width: 150px;
+    padding: 2px;
+    border-radius: 50%;
+    z-index: 5;
+    cursor: pointer;
+    border: 3px dashed #000;
+}
+
+.figureAnimal{ 
+    padding: 10px;
+    /* border: 1px solid #000; */
+    border-radius: 10px;
+    background: #fff;
+}
+
+.figureAnimal figure img{
+    border: 3px dotted #000;
+}
+
+
+.figureAnimal figcaption{
+    text-align: center;
+}
+
+/******************/
+
+.textExplanation{
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    
+}
+
+.textExplanation{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 1rem auto 10px auto;
+    max-width: 50%;   
+    border: 1px solid #000;
+}
+
+/*****************/
+footer{
+    background: rgb(0, 238, 255);
+    border-top: 1px solid #000;
+    margin-top: 1rem;
+    padding: .25rem 0 0 .25rem;
+}
