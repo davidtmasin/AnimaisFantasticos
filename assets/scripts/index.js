@@ -54,4 +54,5 @@ function chooseAnimal(animal) {
 
 function mockStructure() {
     animalCard.setAttribute('src', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSheNt-nn8erRO80Vd0H8YSvNJ-ElBAbcwnhg&usqp=CAU')
+    aboutAnimal.textContent = 'Que tal escolher um amiguinho para que você conheça mais sobre ele? Vamos lá!'
 }

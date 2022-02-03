@@ -16,7 +16,7 @@
 <body onload="mockStructure()">
     <header class="headerAnimal">
         <div id="logo">
-            <img src="assets/images/logo3.svg" alt="logo">
+            <a href="/"><img src="assets/images/logo3.svg" alt="logo"></a>
         </div>
         <nav class="animalsNav">
             <ul id="animals">
@@ -33,33 +33,33 @@
                 <div class="animalPanel">
                     <h3 id="animalTitle">Amiguinhos</h3>
                     <ul class="listAnimal">
-                        <li><img src="assets/images/catmeme.jfif" alt="Gato" onclick="chooseAnimal('cat')"></li>
-                        <li><img src="assets/images/dog.jfif" alt="Cachorro" onclick="chooseAnimal('dog')"></li>
-                        <li><img src="assets/images/monkey.jfif" alt="Macaco" onclick="chooseAnimal('monkey')"></li>
-                        <li><img src="assets/images/bird.jfif" alt="bird" onclick="chooseAnimal('bird')"></li>
-                        <li><img src="assets/images/alligator.jpg" alt="alligator" onclick="chooseAnimal('alligator')"></li>
-                        <li><img src="assets/images/lion.jfif" alt="lion" onclick="chooseAnimal('lion')"></li>
-                        <li><img src="assets/images/wolf.jfif" alt="wolf" onclick="chooseAnimal('wolf')"></li>
-                        <li><img src="assets/images/frog.jpg" alt="frog" onclick="chooseAnimal('frog')"></li>
-                        <li><img src="assets/images/horse.jfif" alt="horse" onclick="chooseAnimal('horse')"></li>
+                        <li><img src="assets/images/catmeme.jfif" alt="Gato" onclick="chooseAnimal('cat')" title="Jubileu"></li>
+                        <li><img src="assets/images/dog.jfif" alt="Cachorro" onclick="chooseAnimal('dog')" title="Catioro"></li>
+                        <li><img src="assets/images/monkey.jfif" alt="Macaco" onclick="chooseAnimal('monkey')" title="Heleno"></li>
+                        <li><img src="assets/images/bird.jfif" alt="bird" onclick="chooseAnimal('bird')" title="Mordecai"></li>
+                        <li><img src="assets/images/alligator.jpg" alt="alligator" onclick="chooseAnimal('alligator')" title="Zé Jacaré"></li>
+                        <li><img src="assets/images/lion.jfif" alt="lion" onclick="chooseAnimal('lion')" title="Leão de Chernobyl"></li>
+                        <li><img src="assets/images/wolf.jfif" alt="wolf" onclick="chooseAnimal('wolf')" title="Lobo de Chernobyl"></li>
+                        <li><img src="assets/images/frog.jpg" alt="frog" onclick="chooseAnimal('frog')" title="Kermit o sapo"></li>
+                        <li><img src="assets/images/horse.jfif" alt="horse" onclick="chooseAnimal('horse')" title="Pé de pano"></li>
                     </ul>
                 </div>
                 <div class="figureAnimal">
                     <figure>
-                        <img src="https://source.unsplash.com/random/300x300/?world" alt="imagem" id="animalCard">
-                        <figcaption id="legendAnimal">Escolha uma amiguinho ao lado</figcaption>
+                        <img src="https://source.unsplash.com/random/300x300/?world" alt="imagem" id="animalCard" title="Escolha um amiguinho ao lado">
+                        <figcaption id="legendAnimal">Escolha um amiguinho ao lado</figcaption>
                     </figure>
                 </div>
             </div>
             <div class="textExplanation">
                 <h3>Sobre o amiguinho
                 </h3>
-                <p>Eu me chamo <span id="nameAnimal">ANIMAL</span>.<span id="descriptonAnimal">Texto sobre o
+                <p id="aboutAnimal">Eu me chamo <span id="nameAnimal">ANIMAL</span>.<span id="descriptonAnimal">Texto sobre o
                         animal</span></p>
             </div>
         </section>
         <footer>
-            <p>Animais Fantásticos. 2021. Desenvolvido por <strong>David Teixeira de Masin</strong></p>
+            <p>Animais Fantásticos © 2021. Desenvolvido por <strong><a href="https://www.github.com/davidtmasin" target="_blank">David Teixeira de Masin</a></strong></p>
         </footer>
     </main>
     <script src="./assets/scripts/index.js"></script>

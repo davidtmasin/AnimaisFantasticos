@@ -1,98 +1,96 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Rajdhani', 'Helvetica', sans-serif;
-    
-}
 
+}
 body{
-    
-    background: rgb(153, 253, 232);
+    background: url('/assets/images/bgbody.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.headerAnimal{
+.headerAnimal {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #000;
-
-    padding: 3.5px 0;
-    background: rgb(0, 238, 255);
+    padding: 2px 0;
+    background: #6dfebfe1;
 }
 
-.headerAnimal #logo{
-    margin-left: 2.5rem ;
+.headerAnimal #logo {
+    margin-left: 2.5rem;
 }
 
-.headerAnimal #logo img{
+.headerAnimal #logo img {
     width: 65px;
     cursor: pointer;
 }
 
-.animalsNav{
+.animalsNav {
     margin: 0 0 0 5rem;
 }
 
-#animals{
+#animals {
     display: flex;
 }
 
-#animals li{
+#animals li {
     list-style: none;
     margin-left: 2.5rem;
-    background: rgb(9, 37, 116);
     padding: 3px 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: background ease .75s;
 }
 
-#animals li a{
-    font-size: 1.2rem;
+#animals li a {
+    font-size: 1.3rem;
+    font-weight: 500;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    
+    color: #F72920;
 }
 
-#animals li:hover{
-    background: rgb(153, 253, 232);
+#animals li:hover {
+    background: #1be766;
 }
 
 
 /**************/
 
-.animalContent{
+.animalContent {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2rem;
-    
 }
 
 
-.animalPanel{    
+.animalPanel {
+    background: #faeb62e1;
     padding: 10px;
-    max-width: 50%;    
-    border: 1px solid #000;
+    max-width: 50%;
+    border: 1px solid #2500A8;
     border-radius: 10px;
-    background: #fff;
 }
 
-#animalTitle{
+#animalTitle {
     text-transform: uppercase;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
     font-size: 2rem;
-    border-bottom: 1px solid #000;
+    color:#2500A8;
+    border-bottom: 1px solid #2500A8;
 
 }
 
-.listAnimal{
+.listAnimal {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -101,63 +99,86 @@ a{
     padding: 10px 0;
 }
 
-.listAnimal li{
+.listAnimal li {
     list-style: none;
     padding: 5px;
 }
 
-.listAnimal li img{
-    width: 180px;
-    height: 180px;
+.listAnimal li img {
+    width: 140px;
+    height: 140px;
     padding: 2px;
     border-radius: 50%;
     z-index: 5;
     cursor: pointer;
-    border: 3px dashed #000;
+    border: 3px dashed #2500A8;
 }
 
-.figureAnimal{ 
+.figureAnimal {
+    background: #faeb62e1;
     padding: 10px;
-    /* border: 1px solid #000; */
     border-radius: 10px;
-    background: #fff;
+    border: 1px solid #2500A8;
 }
 
-.figureAnimal figure img{
+.figureAnimal figure img {
     width: 300px;
     height: 300px;
-    border: 3px dotted #000;
+    border-radius: 10px;
+
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 21px 5px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 21px 5px rgba(0, 0, 0, 0);
 }
 
 
-.figureAnimal figcaption{
+.figureAnimal figcaption {
     text-align: center;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:#2500A8;
 }
 
 /******************/
 
-.textExplanation{
-    margin-top: 1rem;
+.textExplanation {    
+    background: #faeb62e1;
     padding: 10px;
     border-radius: 10px;
-    background: #fff;
-    
-}
+    margin: 1rem auto 10px auto;
+    max-width: 50%;
+    border: 1px solid #2500A8;
 
-.textExplanation{
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 1rem auto 10px auto;
-    max-width: 50%;   
-    border: 1px solid #000;
+}
+
+.textExplanation h3 {
+    font-size: 1.6rem;
+    color:#2500A8;
+}
+
+.textExplanation p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:#2500A8;
 }
 
 /*****************/
-footer{
-    background: rgb(0, 238, 255);
-    border-top: 1px solid #000;
+footer {    
+    background: #000000;
     margin-top: 1rem;
     padding: .25rem 0 0 .25rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer p strong a {
+    color: inherit;
 }
