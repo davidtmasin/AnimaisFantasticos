@@ -13,7 +13,7 @@
     <title>Animais Fantásticos</title>
 </head>
 
-<body>
+<body onload="mockStructure()">
     <header class="headerAnimal">
         <div id="logo">
             <img src="assets/images/logo3.svg" alt="logo">
@@ -33,21 +33,21 @@
                 <div class="animalPanel">
                     <h3 id="animalTitle">Amiguinhos</h3>
                     <ul class="listAnimal">
-                        <li><img src="assets/images/catmeme.jfif" alt="GATO"></li>
-                        <li><img src="assets/images/dog.jfif" alt="Cachorro"></li>
-                        <li><img src="assets/images/monkey.jfif" alt="Macaco"></li>
-                        <li><img src="https://source.unsplash.com/random/300x300/?bird" alt="Animal 1"></li>
-                        <li><img src="https://source.unsplash.com/random/300x300/?alligator" alt="Animal 2"></li>
-                        <li><img src="https://source.unsplash.com/random/300x300/?lion" alt="Animal 3"></li>
-                        <li><img src="https://source.unsplash.com/random/300x300/?wolf" alt="Animal 1"></li>
-                        <li><img src="https://source.unsplash.com/random/300x300/?frog" alt="Animal 2"></li>
-                        <li><img src="https://source.unsplash.com/random/300x300/?horse" alt="Animal 3"></li>
+                        <li><img src="assets/images/catmeme.jfif" alt="Gato" onclick="chooseAnimal('cat')"></li>
+                        <li><img src="assets/images/dog.jfif" alt="Cachorro" onclick="chooseAnimal('dog')"></li>
+                        <li><img src="assets/images/monkey.jfif" alt="Macaco" onclick="chooseAnimal('monkey')"></li>
+                        <li><img src="assets/images/bird.jfif" alt="bird" onclick="chooseAnimal('bird')"></li>
+                        <li><img src="assets/images/alligator.jpg" alt="alligator" onclick="chooseAnimal('alligator')"></li>
+                        <li><img src="assets/images/lion.jfif" alt="lion" onclick="chooseAnimal('lion')"></li>
+                        <li><img src="assets/images/wolf.jfif" alt="wolf" onclick="chooseAnimal('wolf')"></li>
+                        <li><img src="assets/images/frog.jpg" alt="frog" onclick="chooseAnimal('frog')"></li>
+                        <li><img src="assets/images/horse.jfif" alt="horse" onclick="chooseAnimal('horse')"></li>
                     </ul>
                 </div>
                 <div class="figureAnimal">
                     <figure>
-                        <img src="assets/images/catmeme.jfif" alt="imagem">
-                        <figcaption id="legendAnimal">Nome do animal</figcaption>
+                        <img src="https://source.unsplash.com/random/300x300/?world" alt="imagem" id="animalCard">
+                        <figcaption id="legendAnimal">Escolha uma amiguinho ao lado</figcaption>
                     </figure>
                 </div>
             </div>
@@ -62,9 +62,6 @@
             <p>Animais Fantásticos. 2021. Desenvolvido por <strong>David Teixeira de Masin</strong></p>
         </footer>
     </main>
-
-
-
     <script src="./assets/scripts/index.js"></script>
 </body>
 
