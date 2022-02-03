@@ -74,7 +74,7 @@ a {
     background: #faeb62e1;
     padding: 10px;
     max-width: 50%;
-    border: 1px solid #2500A8;
+    border: 2px solid #2500A8;
     border-radius: 10px;
 }
 
@@ -86,7 +86,7 @@ a {
     margin-bottom: 10px;
     font-size: 2rem;
     color:#2500A8;
-    border-bottom: 1px solid #2500A8;
+    border-bottom: 2px solid #2500A8;
 
 }
 
@@ -112,13 +112,18 @@ a {
     z-index: 5;
     cursor: pointer;
     border: 3px dashed #2500A8;
+    transition: all ease .5s;
+}
+
+.listAnimal li img:hover{
+    transform: scale(1.2) translateY(-10px);
 }
 
 .figureAnimal {
     background: #faeb62e1;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #2500A8;
+    border: 2px solid #2500A8;
 }
 
 .figureAnimal figure img {
@@ -135,7 +140,7 @@ a {
     text-align: center;
     margin-top: 10px;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
     color:#2500A8;
 }
 
@@ -147,7 +152,7 @@ a {
     border-radius: 10px;
     margin: 1rem auto 10px auto;
     max-width: 50%;
-    border: 1px solid #2500A8;
+    border: 2px solid #2500A8;
 
     display: flex;
     flex-flow: column wrap;
@@ -168,7 +173,7 @@ a {
 
 /*****************/
 footer {    
-    background: #000000;
+    background: #000000dc;
     margin-top: 1rem;
     padding: .25rem 0 0 .25rem;
 }
